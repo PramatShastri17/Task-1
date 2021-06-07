@@ -31,3 +31,13 @@ When the RFID reader reads an RFID tag, a buzzer beeps, and it saves the current
 According to the check-in time set by the user, it detects if you are on-time and lights up the green led, else if you are late, a red LED lights up. 
 This project can be expanded by linking data received from the RFID reader directly into a database which can identify the person by the UID an record the attendence.\
 Project [Link](https://randomnerdtutorials.com/arduino-time-attendance-system-with-rfid/)
+
+# Project 4 - Pulse Oximeter using NodeMCU
+Goal - IoT Based Pulse Oximeter Using ESP8266 & Blynk Application\
+Topic - NodeMCU and IoT\
+**NodeMCU** is a low-cost open-source IoT platform based on firmware which runs on the ESP8266 Wi-Fi SoC and hardware which was based on the ESP-12 module. 
+This project uses the MAX30100 *Pulse Oximeter and Heart-Rate sensor* to measure the SpO2 level in the blood. This sensor has two LEDs emitting - red light, infrared light. Infrared light is required for pulse rate but, both lights are required for measuring SpO2 levels in the blood. Oxygenated blood absorbs more infrared light and passes more red light but, deoxygenated blood absorbs red light and passes more infrared light. So, at its core, the MAX30100 sensor reads the absorption levels for both light sources and stores them in a buffer to be read. 
+This MAX30100 sensor is interfaced with an OLED Display (to display sensor data) and the NodeMCU ESP8266 module (to allow WiFi access). 
+Blynk is an IoT cloud platform with iOS and Android apps to control Arduino, ESP8266, Raspberry Pi , etc. over the Internet. This platform is used to connect the phone to the Oximeter through the NodeMCU module. A simple app (GUI) is created using the Blynk App to display the SpO2 and Heart rate valus on your phone. 
+This project can be made more compact be desiging and placing the components in a single module (box).\
+Project [Link](https://www.hackster.io/Alfa0420/esp8266-pulse-oximeter-blynk-bpm-76f4a3)
