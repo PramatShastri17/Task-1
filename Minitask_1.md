@@ -7,5 +7,5 @@ The pair of ultrasonic transducers (collected from HCSR04 module) are positioned
 When the orientation of the wave is parallel to the pull of gravity, portions of the standing wave have a constant downward pressure and others have constant upward pressure. 
 When a small object is carefully positioned inbetween the transducers, it appears to float free of any support.\
 This machine is very sensitive as variation is subtle parameters (like positioning of or distance between the sensors) can tamper with the results. Also, it is limited to levitating only small (lighter) objects. 
-Designing the transducer with a concave geometry to fit more pairs of ultrasonic sensors (suitably positioning them on the surface) may allow it to lift havier objects.\
+Designing the transducer with a concave geometry to fit more pairs of ultrasonic sensors (suitably positioning them on the surface) may allow it to lift heavier objects.\
 Project [Link](https://www.hackster.io/e_s_c/ultrasonic-levitation-machine-using-arduino-9e3989)
