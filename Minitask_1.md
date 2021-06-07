@@ -23,4 +23,11 @@ Project [Link](https://www.hackster.io/sandeep-mistry/create-a-usb-microphone-wi
 # Project 3 - Time Attendance System with RFID
 Goal - To build a time attendance system which shows if you are late or in time according to a preset time.\
 Topic - Arduino\
-RFID (**R**adio-**F**requency **ID**entification) uses electromagnetic fields to automatically identify and track tags attached to objects by assigning a **Un**ique **ID**entification (UID) to each tag. This projects uses the MFRC522 RFID Reader which sends a signal to the tag and reads its response and communicates with the Arduino using SPI com protocol. It uses a SD Card module to store the UID of the tags on an SD card. It also uses a DS1307 RTS (**R**eal-**T**ime **C**lock) Module to keep track of time. Furthermore, this RTC module has an inbuilt backup battery installed which allows the module to retain the time, even when it’s not being powered up.
+RFID (**R**adio-**F**requency **ID**entification) uses electromagnetic fields to automatically identify and track tags attached to objects by assigning a **Un**ique **ID**entification (UID) to each tag. 
+This projects uses the MFRC522 RFID Reader which sends a signal to the tag and reads its response and communicates with the Arduino using SPI protocol. It uses a SD Card module to store the UID of the tags on an SD card. The Arduino communicates with the SD card using an SD card module with the same SPI protocol. 
+It also uses a DS1307 RTS (**R**eal-**T**ime **C**lock) Module to keep track of time. Furthermore, this RTC module has an inbuilt backup battery installed which allows the module to retain the time, even when it’s not being powered up. 
+Functions of each of the modules are implements by including the required libraries respectively in the code. 
+When the RFID reader reads an RFID tag, a buzzer beeps, and it saves the current time and the UID of the tag in an SD card. 
+According to the check-in time set by the user, it detects if you are on-time and lights up the green led, else if you are late, a red LED lights up. 
+This project can be expanded by linking data received from the RFID reader directly into a database which can identify the person by the UID an record the attendence.\
+Project [Link](https://randomnerdtutorials.com/arduino-time-attendance-system-with-rfid/)
