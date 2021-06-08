@@ -41,3 +41,16 @@ This MAX30100 sensor is interfaced with an OLED Display (to display sensor data)
 Blynk is an IoT cloud platform with iOS and Android apps to control Arduino, ESP8266, Raspberry Pi , etc. over the Internet. This platform is used to connect the phone to the Oximeter through the NodeMCU module. A simple app (GUI) is created using the Blynk App to display the SpO2 and Heart rate valus on your phone. 
 This project can be made more compact be desiging and placing the components in a single module (box).\
 Project [Link](https://www.hackster.io/Alfa0420/esp8266-pulse-oximeter-blynk-bpm-76f4a3)
+
+# Project 5 - TapLock : Bike/Bicycle lock
+Goal - Using the power of Machine Learning (ML) to read tapping pattern to keep your bike safe.\
+Topic - Arduino\
+This project uses the Arduino Nano 33 BLE sense along with a power bank to power the board. For tap detection, the accelerometer found on the Arduino Nano board is used. 
+ML is implement through the is Edge impulse platform. It records the tapping and presents it as a graph of axial acceleration based on time. 
+The accelerometer output was preprocessed on the board by averaging the acceleration over all three axes so that minute variations (without changing the base tapping pattern) in tapping is also recognised. 
+The raw data processing block from Edge impulse along with Keras neural network learning block was used to train the system to learn the tapping pattern to a high accuracy. 
+The functions of Taplock is controlled via an application on the mobile phone, that connects to the board via Bluetooth. This app is integrated with a map client. 
+When the bike is locked, it updates the lock atatue to the app and also creates a pin is on the map to indicate the location of the bike. 
+The user can also manually lock or unlock the bike via the app. 
+The mounting bracket on the bike for the board was 3D printed.\
+Project [Link](https://www.hackster.io/taplock/taplock-a-bike-lock-with-machine-learning-85641c)
