@@ -91,3 +91,15 @@ When user sends the message from the mobile, GSM modem sends a command serially 
 The location of the new message is identified and read by the GSM modem and then sends a serial command to the controller with additional information (This information still contains our message). 
 From this command, our message is extracted and then displayed on the LCD.\
 Project [Link](https://www.electronicshub.org/wireless-electronic-notice-board-using-gsm/)
+
+# Project 9 - Solar Panel Sun Tracker (+ Phone Charger)
+Goal -  To build a sun tracking solar array that positions the solar panels to always face the sun.\
+Topic - Arduino\
+This project consists of two LDRs, a servo motor, two solar panels and an Arduino. 
+The components are connected as per the scmenatic and are suitably mounted onto the supporting frame with required mechanical adjustments. 
+This project works on the principle that resistance of an LDR is inversely proportional to the intensity of light that falls on its surface.
+The LDRs are positioned at the ends of the solar panels. When intensity of light incident on one of the LDR's increases, its resistance decreases,so the panels move towards this side to counter this decrease with the help of the servo. 
+The servo and the LDR's output are properly calibrated to ensure optimal functioning. 
+Additionally, a 2.5V - 5V DC-DC boost converter can be directly connected to the solar panels to enable phone charging. 
+But as the power output of just two solar panels are not sufficient to make the system self-sustaining and reliable to charge a phone, more solar panels can be added to the system with suitable structural modifications.\
+Project [Link](https://www.hackster.io/FIELDING/solar-panel-sun-tracker-phone-charger-f669ce)
