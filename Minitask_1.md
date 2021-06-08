@@ -65,3 +65,17 @@ The microcontroller is programmed on the Arduino IDE with an ESP32 addon install
 The program is first run to obtain the IP Address of the ESP32-CAM. This is then inputted on the mobile app to establish connection to the ESP32 board. 
 In order to control the camera though the Internet outside the home network, user must configure their router to enable Port Forwarding to effectively communicate to the Camera.\
 Project [Link](https://www.instructables.com/ESP32-CAM-Video-Surveillance-Smart-Camera/)
+
+# Project 7 - Interfacing GPS with 8051 Microcontroller
+Goal - To determine the location of a vehicle or person.\
+Topic - Microcontrollers\
+GPS receivers provide reliable navigation, positioning and timing services to the users at anytime or anywhere on the earth. 
+The GPS Module uses global positioning system whic uses a system of 24 to 32 satellites to return location data. 
+This module calculates the position by reading the signals that are transmitted by these satellites. 
+The GPS receiver continuously transmits the data as per the NMEA (National Marine Electronics Association) standards using RS232 protocol. 
+This project uses the 8051 Microcontroller along with a MAC232 IC for level conversion (from RS232 to TTL) and LCD to display the data. 
+The microcontroller receives data from GPS module serially using UART (Universal Asynchronous Receiver/Transmitter) protocol. 
+In NMEA format, the *Latitude* and *Longitude* values of location are available in GPRMC sentence. 
+The extracted *Latitude* and *Longitude* values (in NMEA format) is then displayed on the LCD.\
+Project [Link](https://www.electronicshub.org/interfacing-gps-8051-microcontroller/)
+
