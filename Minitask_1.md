@@ -54,3 +54,14 @@ When the bike is locked, it updates the lock atatue to the app and also creates 
 The user can also manually lock or unlock the bike via the app. 
 The mounting bracket on the bike for the board was 3D printed.\
 Project [Link](https://www.hackster.io/taplock/taplock-a-bike-lock-with-machine-learning-85641c)
+
+# Project 6 - ESP32-CAM Video Surveillance Smart Camera
+Goal - A video surveillance pan & tilt camera that can be controlled with an iPhone through Internet.\
+Topic - Electronics\
+The ESP32-CAM is a full-featured microcontroller that has an integrated video camera and microSD card socket which can perform advanced functions like image tracking and recognition. This project uses the ESP32-CAM to capture video. 
+It is powered by the MB102 power supply module through a pair of batteries. 
+The ESP32-CAM is mounted on a pair of SG-90 Servos (on there respective platforms), that work together to provide *tilt* and *pan* functionality, enabling the user to change the camera position. 
+The microcontroller is programmed on the Arduino IDE with an ESP32 addon installed. The functions of this Smart Camera is completely controlled by custom developed app on the phone.
+The program is first run to obtain the IP Address of the ESP32-CAM. This is then inputted on the mobile app to establish connection to the ESP32 board. 
+In order to control the camera though the Internet outside the home network, user must configure their router to enable Port Forwarding to effectively communicate to the Camera.\
+Project [Link](https://www.instructables.com/ESP32-CAM-Video-Surveillance-Smart-Camera/)
