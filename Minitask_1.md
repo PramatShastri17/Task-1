@@ -79,3 +79,15 @@ In NMEA format, the *Latitude* and *Longitude* values of location are available 
 The extracted *Latitude* and *Longitude* values (in NMEA format) is then displayed on the LCD.\
 Project [Link](https://www.electronicshub.org/interfacing-gps-8051-microcontroller/)
 
+# Project 8 - Wireless Electronic Notice Board using GSM Technology
+Goal - To display data send from the mobile phone on the LCD\
+Topic - Electronics\
+GSM (Global System for Mobile Communications) is a telecommunication standard allows long range, reliable and secure communication. 
+This project uses 8051 Microcontroller (with Dev Board) , GSM Module (SIM 900A GSM Modem) and LCD to display message (used in 8 – bit mode - needs 8 data lines to display the data). 
+The GSM Module is directly connected to the microcontroller as the logic levels of both the GSM Modem and Microcontroller are already matched in the GSM Module Board. 
+If there is no level converter on the board, then MAX232 level converter is used as a mediator between Controller and GSM to transfer the data. 
+In order to communicate with the GSM Modem, AT commands are sent using serial communication (UART protocol). 
+When user sends the message from the mobile, GSM modem sends a command serially to indicate that a new message is received. 
+The location of the new message is identified and read by the GSM modem and then sends a serial command to the controller with additional information (This information still contains our message). 
+From this command, our message is extracted and then displayed on the LCD.\
+Project [Link](https://www.electronicshub.org/wireless-electronic-notice-board-using-gsm/)
