@@ -103,3 +103,13 @@ The servo and the LDR's output are properly calibrated to ensure optimal functio
 Additionally, a 2.5V - 5V DC-DC boost converter can be directly connected to the solar panels to enable phone charging. 
 But as the power output of just two solar panels are not sufficient to make the system self-sustaining and reliable to charge a phone, more solar panels can be added to the system with suitable structural modifications.\
 Project [Link](https://www.hackster.io/FIELDING/solar-panel-sun-tracker-phone-charger-f669ce)
+
+# Project 10 - Intruder Detection using Ultra Low Powered Thermal Vision
+Goal - To build a system which detects intruders in dark with a low resolution thermal camera.\
+Topic - Raspberry Pi and TensorFlow Lite\
+
+
+# Project 11 - Password Protected Door Lock
+goal - To build a door lock that can be controlled from a smartphone using an app.\
+Topic - Arduino\
+
