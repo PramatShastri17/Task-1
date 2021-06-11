@@ -115,7 +115,7 @@ The training data is displayed as a time-series of 1 ms interval data but it is 
 Since this is not a time-series data, the Raw Data block is used without preprocessing, which is fed into the Neural Network block. 
 When the camera detects a human like thermal signature (as per the training data), it is detected as a person and the red LED glows signifying an intruder. 
 This concept can be further integrated with an IoT device which sends a warning to the user.\
-Project [Link](https://www.hackster.io/naveenbskumar/intruder-detection-using-ultra-low-powered-thermal-vision-24ed45)
+Project [Link](https://www.hackster.io/naveenbskumar/intruder-detection-using-ultra-low-powered-thermal-vision-24ed45)\
 ![intruder_detection](https://user-images.githubusercontent.com/85291394/121711791-9aa2e900-caf8-11eb-8caa-6988bc9511b2.gif)
 
 
