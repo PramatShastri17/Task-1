@@ -116,6 +116,8 @@ Since this is not a time-series data, the Raw Data block is used without preproc
 When the camera detects a human like thermal signature (as per the training data), it is detected as a person and the red LED glows signifying an intruder. 
 This concept can be further integrated with an IoT device which sends a warning to the user.\
 Project [Link](https://www.hackster.io/naveenbskumar/intruder-detection-using-ultra-low-powered-thermal-vision-24ed45)
+![intruder_detection](https://user-images.githubusercontent.com/85291394/121711791-9aa2e900-caf8-11eb-8caa-6988bc9511b2.gif)
+
 
 # Project 11 - Password Protected Door Lock
 goal - To build a door lock that can be controlled from a smartphone using an app.\
