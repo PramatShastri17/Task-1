@@ -106,10 +106,18 @@ Project [Link](https://www.hackster.io/FIELDING/solar-panel-sun-tracker-phone-ch
 
 # Project 10 - Intruder Detection using Ultra Low Powered Thermal Vision
 Goal - To build a system which detects intruders in dark with a low resolution thermal camera.\
-Topic - Raspberry Pi and TensorFlow Lite\
-
+Topic - Raspberry Pi\
+This project uses Raspberry Pi Pico, which is connected to the MLX90640 IR Thermal Camera over I2C. Also a TFT Display is connected to it over SPI. Also, a red LED is connected to the Raspberry Pi. 
+The Seeed Wio Terminal is used to collect data for training the system. 
+Thermal image data was captured in separate file and then saved on an inbuilt micro SD card on the Wio Terminal. 
+This data is uploaded to Edge Impulse to implement Machine Learning. 
+The training data is displayed as a time-series of 1 ms interval data but it is used as a single data instance by setting the window size 768 ms which equals to 768 thermal readings. 
+Since this is not a time-series data, the Raw Data block is used without preprocessing, which is fed into the Neural Network block. 
+When the camera detects a human like thermal signature (as per the training data), it is detected as a person and the red LED glows signifying an intruder. 
+This concept can be further integrated with an IoT device which sends a warning to the user.\
+Project [Link](https://www.hackster.io/naveenbskumar/intruder-detection-using-ultra-low-powered-thermal-vision-24ed45)
 
 # Project 11 - Password Protected Door Lock
 goal - To build a door lock that can be controlled from a smartphone using an app.\
-Topic - Arduino\
+Topic - Arduino
 
