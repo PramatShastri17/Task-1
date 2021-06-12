@@ -122,14 +122,14 @@ Project [Link](https://www.hackster.io/naveenbskumar/intruder-detection-using-ul
 # Project 11 - Password Protected Door Lock
 Goal - To build a door lock that can be controlled from a smartphone using an app.\
 Topic - Arduino\
-This project uses an Arduino UNO interfaced with a HC-05 Bluetooth Module and a Servo. The connections are made as per the schematics given. The Arduino is powered externally through a wall adapter. 
+This project uses an Arduino UNO interfaced with a HC-05 Bluetooth Module and a Servo. The Arduino is powered externally through a wall adapter. 
 The locking mechanism for this project is 3D printed and assembled accordingly. 
 The arduino is programmed to receive commands from a mobile app by establishing bluetooth connection through the HC-05 module. 
 The mobile app is designed using MIT App Inventor. 
-Its interface includes a button to connect to the Arduino, Buttons to open or close the door, a text box to accept password and a message box to display the status or warnings.
+Its interface includes - Button to connect to the Arduino, Buttons to open or close the door, a Text Box to accept password and a Message Box to display the status or warnings.
 The android application is designed to send two command together - the action to be performed (Open or Close) and the password - separated by an '=' character. 
 When this command is passed, the action command is first separated from the password with the '=' as referance. 
-The password is validated against the preset password, then according the action is carried out or addressed with an appropriate message. 
+The password is validated against the preset password, then accordingly the action is carried out or addressed with an appropriate message.\
 The project can be improved by providing battery backup to the Arduino incase of any power outages. 
 Also, a keypad can be added to enter the password (digits only) incase mobile phone is not available.\
 Project [Link](https://www.hackster.io/taifur/arduino-and-android-based-password-protected-door-lock-36887d)\
