@@ -135,3 +135,19 @@ Also, a keypad can be added to enter the password (digits only) incase mobile ph
 Project [Link](https://www.hackster.io/taifur/arduino-and-android-based-password-protected-door-lock-36887d)\
 ![door-lock_](https://user-images.githubusercontent.com/85291394/121784325-08224880-cbd1-11eb-895d-cd2cd9e3b32d.jpg)
 
+# Project 12 - Smart Agriculture System
+Goal - to make an IoT-based smart agriculture system that can monitor soil moisture and automatically irrigate a piece of land or wirelessly spray fertilizers.\
+Topic - IoT
+
+# Project 13 - Home Automation and Entertainment using Google Assistant
+Goal - To use voice commands to control home appliances or stream music/videos.\  
+Topic - Raspberry Pi
+
+# Project 14 - Alerting Indoor IoT Air Quality Monitor
+Goal - To measure and log indoor air quality and configure alerts when air quality is compromised.\
+Topic - IoT
+
+# Project 15 - Velo Bling-Bling
+Goal - To displays images and dynamic info like speed using LED lights on bicycle wheels.\
+Topics - Electronics
+
