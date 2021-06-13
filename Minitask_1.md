@@ -8,7 +8,9 @@ When the orientation of the wave is parallel to the pull of gravity, portions of
 When a small object is carefully positioned inbetween the transducers, it appears to float free of any support.\
 This machine is very sensitive as variation is subtle parameters (like positioning of or distance between the sensors) can tamper with the results. Also, it is limited to levitating only small (lighter) objects. 
 Designing the transducer with a concave geometry to fit more pairs of ultrasonic sensors (suitably positioning them on the surface) may allow it to lift heavier objects.\
-Project [Link](https://www.hackster.io/e_s_c/ultrasonic-levitation-machine-using-arduino-9e3989)
+Project [Link](https://www.hackster.io/e_s_c/ultrasonic-levitation-machine-using-arduino-9e3989)\
+![Acoustic_Levitation](https://user-images.githubusercontent.com/85291394/121806316-f4c4bb00-cc6c-11eb-9ba8-d15a6be44972.gif)
+
 
 # Project 2 - USB Microphone
 Goal -  Creating a USB microphone device.\
@@ -18,7 +20,9 @@ Using the Raspberry Pi Pico SDK's TinyUSB library as its USB software stack, and
 The RP2040 does not have built-in support for both PDM peripheral interface in software.
 The PIO generates a clock signal into the PDM Microphone which captures a digital value from the Microphone once per clock period.The DMA is configured to capture 1 millisecond of audio, with 16 samples (64 x 16 = 1024 bits) generated every millisecond. Received samples will be filtered using the OpenPDM2PCM library and downsampled from 1024-bit raw PDM data into 16 Pulse-code modulation (PCM) 16-bit audio samples and then sent over USB to the PC in real-time!
 As USB Audio standard is used for communications between the Raspberry Pi Pico and the PC, no custom software is needed on the PC side.\
-Project [Link](https://www.hackster.io/sandeep-mistry/create-a-usb-microphone-with-the-raspberry-pi-pico-cc9bd5)
+Project [Link](https://www.hackster.io/sandeep-mistry/create-a-usb-microphone-with-the-raspberry-pi-pico-cc9bd5)\
+![raspberry_pi_audio_logo](https://user-images.githubusercontent.com/85291394/121806487-a532bf00-cc6d-11eb-80b9-ba4c669cc083.png)
+
 
 # Project 3 - Time Attendance System with RFID
 Goal - To build a time attendance system which shows if you are late or in time according to a preset time.\
@@ -30,7 +34,9 @@ Functions of each of the modules are implements by including the required librar
 When the RFID reader reads an RFID tag, a buzzer beeps, and it saves the current time and the UID of the tag in an SD card. 
 According to the check-in time set by the user, it detects if you are on-time and lights up the green led, else if you are late, a red LED lights up. 
 This project can be expanded by linking data received from the RFID reader directly into a database which can identify the person by the UID an record the attendence.\
-Project [Link](https://randomnerdtutorials.com/arduino-time-attendance-system-with-rfid/)
+Project [Link](https://randomnerdtutorials.com/arduino-time-attendance-system-with-rfid/)\
+![RFID](https://user-images.githubusercontent.com/85291394/121806687-808b1700-cc6e-11eb-92b5-a2e3777fe811.gif)
+
 
 # Project 4 - Pulse Oximeter using NodeMCU
 Goal - IoT Based Pulse Oximeter Using ESP8266 & Blynk Application\
@@ -40,7 +46,9 @@ This project uses the MAX30100 *Pulse Oximeter and Heart-Rate sensor* to measure
 This MAX30100 sensor is interfaced with an OLED Display (to display sensor data) and the NodeMCU ESP8266 module (to allow WiFi access). 
 Blynk is an IoT cloud platform with iOS and Android apps to control Arduino, ESP8266, Raspberry Pi , etc. over the Internet. This platform is used to connect the phone to the Oximeter through the NodeMCU module. A simple app (GUI) is created using the Blynk App to display the SpO2 and Heart rate valus on your phone. 
 This project can be made more compact be desiging and placing the components in a single module (box).\
-Project [Link](https://www.hackster.io/Alfa0420/esp8266-pulse-oximeter-blynk-bpm-76f4a3)
+Project [Link](https://www.hackster.io/Alfa0420/esp8266-pulse-oximeter-blynk-bpm-76f4a3)\
+![Oximeter](https://user-images.githubusercontent.com/85291394/121806723-aca69800-cc6e-11eb-857f-a5e955e152e2.jpg)
+
 
 # Project 5 - TapLock : Bike/Bicycle lock
 Goal - Using the power of Machine Learning (ML) to read tapping pattern to keep your bike safe.\
@@ -53,7 +61,9 @@ The functions of Taplock is controlled via an application on the mobile phone, t
 When the bike is locked, it updates the lock atatue to the app and also creates a pin is on the map to indicate the location of the bike. 
 The user can also manually lock or unlock the bike via the app. 
 The mounting bracket on the bike for the board was 3D printed.\
-Project [Link](https://www.hackster.io/taplock/taplock-a-bike-lock-with-machine-learning-85641c)
+Project [Link](https://www.hackster.io/taplock/taplock-a-bike-lock-with-machine-learning-85641c)\
+![TapLock](https://user-images.githubusercontent.com/85291394/121806801-fabb9b80-cc6e-11eb-9352-242b7b7c8b37.jpg)
+
 
 # Project 6 - ESP32-CAM Video Surveillance Smart Camera
 Goal - A video surveillance pan & tilt camera that can be controlled with an iPhone through Internet.\
