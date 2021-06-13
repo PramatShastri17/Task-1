@@ -135,9 +135,19 @@ Also, a keypad can be added to enter the password (digits only) incase mobile ph
 Project [Link](https://www.hackster.io/taifur/arduino-and-android-based-password-protected-door-lock-36887d)\
 ![door-lock_](https://user-images.githubusercontent.com/85291394/121784325-08224880-cbd1-11eb-895d-cd2cd9e3b32d.jpg)
 
-# Project 12 - Smart Agriculture System
-Goal - to make an IoT-based smart agriculture system that can monitor soil moisture and automatically irrigate a piece of land or wirelessly spray fertilizers.\
-Topic - IoT
+# Project 12 - Water Level Controller
+Goal - To detect and control the water level in an overhead tank and automatically operate the water motor.\
+Topic - Microcontrollers\
+This project uses the 8051 Microcontroller interfaced with LCD display, Relay Module and Detector Circuit to detect water level. 
+This system works on the principle that **Water Conducts electricity**. 
+Water sensing is done by using a set of four wires, which are placed at different levels in the tank, the lowest placed being DC supply probe. 
+Ther are connected to the microcontroller through a Detector Circuit which comprises of three 2N2222 (NPN) Transistors + Resistors connected in parallel to the remaining three wire probes. 
+These four wires indicate the different water levels in the tank. 
+Based on the outputs of these wires, the microcontroller displays water level on LCD as well as controls the motor through the relay module. 
+Depending on the initial level of water in the tank, LCD will display a message - either LOW, HALF or FULL - as well as the status of the motor - either ON or OFF. 
+The motor runs automatically till water level becomes FULL. 
+When water level falls again, the LCD displays its current level and runs the motor till the tank is FULL.\
+Project [Link](https://www.electronicshub.org/water-level-controller-using-8051-microcontroller/)
 
 # Project 13 - Home Automation and Entertainment using Google Assistant
 Goal - To use voice commands to control home appliances or stream music/videos.\  
@@ -145,7 +155,19 @@ Topic - Raspberry Pi
 
 # Project 14 - Alerting Indoor IoT Air Quality Monitor
 Goal - To measure and log indoor air quality and configure alerts when air quality is compromised.\
-Topic - IoT
+Topic - IoT\
+This project uses Arduino Nano 33 IoT interfaced with a Bosch BME680 Air Quality Sensor and a NeoPixel LED Stick. 
+The circuit is assembled inside a box with predrilled holes to allows the flow of air through it. 
+The BME680 sensor reports a calculated air quality measurement and the accuracy of its measurement. 
+The accuracy of the calibration is displayed through the number of pixels lit on the LED array. 
+The accuracy range is from 0 to 3, so two pixels are lit for each of the accuracy categories. 
+The color of the pixels corresponds to the air quality measurement - green from 25, yellow from around 200 and red above 400. 
+The ThingSpeak IoT analytics platform is used to track the air quality data in real time and is also programmed to sends email alerts to the user when air quality is compromised. 
+The data recorded is represented and stored in the form of a live graph (using MatLab Analysis). This gives the user the ability to view and compare historic air quality trends. 
+Also, the air quality of the room can be monitored remotely as well using ThinkSpeak.\
+Project [Link](https://www.hackster.io/team-matlab-iot/make-your-air-safer-alerting-indoor-iot-air-quality-monitor-5eb90d)\
+![Air quality Monitor](https://user-images.githubusercontent.com/85291394/121804305-508a4680-cc63-11eb-8859-2007c23adc27.jpg)
+
 
 # Project 15 - Velo Bling-Bling
 Goal - To displays images and dynamic info like speed using LED lights on bicycle wheels.\
