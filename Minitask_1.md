@@ -193,7 +193,8 @@ Project [Link](https://www.hackster.io/team-matlab-iot/make-your-air-safer-alert
 ![Air quality Monitor](https://user-images.githubusercontent.com/85291394/121804305-508a4680-cc63-11eb-8859-2007c23adc27.jpg)
 
 
-# Project 15 - Velo Bling-Bling
-Goal - To displays images and dynamic info like speed using LED lights on bicycle wheels.\
-Topics - Electronics
-
+# Project 15 - Persistence of Vision (PoV) Display
+Goal - To display any text or image on an LED PoV Display.\
+Topics - Arduino\
+**PoV** occurs when a visual image seems to persist continuously when a stream of light is repeatedly interrupted for very brief instances and does not enter our eyes during those durations giving us the illusion that the images are in motion. 
+This project uses the Arduino Nano powered by a 9V battery. It is connected with an array of 8 LEDs along with an IR sensor.
