@@ -74,7 +74,9 @@ The ESP32-CAM is mounted on a pair of SG-90 Servos (on there respective platform
 The microcontroller is programmed on the Arduino IDE with an ESP32 addon installed. The functions of this Smart Camera is completely controlled by custom developed app on the phone.
 The program is first run to obtain the IP Address of the ESP32-CAM. This is then inputted on the mobile app to establish connection to the ESP32 board. 
 In order to control the camera though the Internet outside the home network, user must configure their router to enable Port Forwarding to effectively communicate to the Camera.\
-Project [Link](https://www.instructables.com/ESP32-CAM-Video-Surveillance-Smart-Camera/)
+Project [Link](https://www.instructables.com/ESP32-CAM-Video-Surveillance-Smart-Camera/)\
+![security camera](https://user-images.githubusercontent.com/85291394/122076757-c388ee00-ce18-11eb-9bb9-1f8fcbf5174a.gif)
+
 
 # Project 7 - Interfacing GPS with 8051 Microcontroller
 Goal - To determine the location of a vehicle or person.\
@@ -87,7 +89,9 @@ This project uses the 8051 Microcontroller along with a MAC232 IC for level conv
 The microcontroller receives data from GPS module serially using UART (Universal Asynchronous Receiver/Transmitter) protocol. 
 In NMEA format, the *Latitude* and *Longitude* values of location are available in GPRMC sentence. 
 The extracted *Latitude* and *Longitude* values (in NMEA format) is then displayed on the LCD.\
-Project [Link](https://www.electronicshub.org/interfacing-gps-8051-microcontroller/)
+Project [Link](https://www.electronicshub.org/interfacing-gps-8051-microcontroller/)\
+![isometric_smartphone_gps](https://user-images.githubusercontent.com/85291394/122076278-5ecd9380-ce18-11eb-9b4d-153e185af3a1.gif)
+
 
 # Project 8 - Wireless Electronic Notice Board using GSM Technology
 Goal - To display data send from the mobile phone on the LCD\
@@ -100,7 +104,9 @@ In order to communicate with the GSM Modem, AT commands are sent using serial co
 When user sends the message from the mobile, GSM modem sends a command serially to indicate that a new message is received. 
 The location of the new message is identified and read by the GSM modem and then sends a serial command to the controller with additional information (This information still contains our message). 
 From this command, our message is extracted and then displayed on the LCD.\
-Project [Link](https://www.electronicshub.org/wireless-electronic-notice-board-using-gsm/)
+Project [Link](https://www.electronicshub.org/wireless-electronic-notice-board-using-gsm/)\
+![Wireless-Electronic-Notice-Board-using-GSM-Image-5-760x440](https://user-images.githubusercontent.com/85291394/122077387-52960600-ce19-11eb-8c22-51488147a900.jpg)
+
 
 # Project 9 - Solar Panel Sun Tracker (+ Phone Charger)
 Goal -  To build a sun tracking solar array that positions the solar panels to always face the sun.\
@@ -112,7 +118,9 @@ The LDRs are positioned at the ends of the solar panels. When intensity of light
 The servo and the LDR's output are properly calibrated to ensure optimal functioning. 
 Additionally, a 2.5V - 5V DC-DC boost converter can be directly connected to the solar panels to enable phone charging. 
 But as the power output of just two solar panels are not sufficient to make the system self-sustaining and reliable to charge a phone, more solar panels can be added to the system with suitable structural modifications.\
-Project [Link](https://www.hackster.io/FIELDING/solar-panel-sun-tracker-phone-charger-f669ce)
+Project [Link](https://www.hackster.io/FIELDING/solar-panel-sun-tracker-phone-charger-f669ce)\
+![Sun tracker](https://user-images.githubusercontent.com/85291394/122074398-cf73b080-ce16-11eb-9c4b-554dad90959c.jpg)
+
 
 # Project 10 - Intruder Detection using Ultra Low Powered Thermal Vision
 Goal - To build a system which detects intruders in dark with a low resolution thermal camera.\
@@ -158,6 +166,8 @@ Depending on the initial level of water in the tank, LCD will display a message 
 The motor runs automatically till water level becomes FULL. 
 When water level falls again, the LCD displays its current level and runs the motor till the tank is FULL.\
 Project [Link](https://www.electronicshub.org/water-level-controller-using-8051-microcontroller/)
+![imgonline-com-ua-twotoone-9lLa4YWv7UHgoHZ0](https://user-images.githubusercontent.com/85291394/122075153-78baa680-ce17-11eb-9d32-a2f53031a370.png)
+
 
 # Project 13 - Controlling Raspberry Pi Using Alexa
 Goal - To connect and control Raspberry Pi using Alexa Voice Commands.\  
