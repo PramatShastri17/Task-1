@@ -197,4 +197,14 @@ Project [Link](https://www.hackster.io/team-matlab-iot/make-your-air-safer-alert
 Goal - To display any text or image on an LED PoV Display.\
 Topics - Arduino\
 **PoV** occurs when a visual image seems to persist continuously when a stream of light is repeatedly interrupted for very brief instances and does not enter our eyes during those durations giving us the illusion that the images are in motion. 
-This project uses the Arduino Nano powered by a 9V battery. It is connected with an array of 8 LEDs along with an IR sensor.
+This project uses the Arduino Nano powered by a 9V battery. It is connected with an array of 8 LEDs along with an IR sensor. 
+The IR sensor in needed to indicate the starting position from where the text or image is to be written/displayed. 
+The Holder, consisting of the rotating arm and the steady assembly, are 3D printed. A DC motor is attached to the Holder to rotate the arm. 
+The LEDs are connected together along with resistors (for protection) on a GPB and placed in the rotating arm. 
+Each LED anode is connected to individual pins on the Arduino and the cathodes (common to all LEDs) are connected to ground. 
+A small piece of white paper is attached to the steady assembly, which will be detected by the IR Sensor. 
+Varying the placement of the paper leads to a change in the position of the text displayed. 
+The Arduino is programmed to display the text with controlled blinking of the LEDs in such a way that the different images overlap each other forming letters causing the effect of PoV. 
+When the motor is powered, the IR sensor detects the white paper and the LEDs start to glow, creating the illusion that something is displayed by the LED.\
+Project [Link](https://create.arduino.cc/projecthub/theSTEMpedia/persistence-of-vision-pov-display-using-arduino-583d5f)\
+![POV_Display](https://user-images.githubusercontent.com/85291394/122073321-f5e51c00-ce15-11eb-987e-6fe2c274cb46.gif)
