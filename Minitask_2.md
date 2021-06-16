@@ -1,7 +1,7 @@
 # TapLock - Smart Bicycle Lock
 ## Problem Statement: 
 Building a device that uses the power of machine learning to read tapping pattern (gestures) to lock/unlock a bicycle.
-## Ideation and Planning:
+## Ideation:
 ### Main Path:
 Tap Pattern detection --> Accelerometer Output -->  Microcontroller --> Edge Impulse --> Tap Recognision -->
 - **First Path:** *Microcontroller --> Bluetooth Module --> Android Mobile Device*
@@ -16,6 +16,13 @@ Tap Pattern detection --> Accelerometer Output -->  Microcontroller --> Edge Imp
 |Edge Impulse - ML|Microcontroller Built-in support; Leading development platform for embedded machine learning| User-Friendly Platform; Multiple Features - Data Training, Data Accuracy; Embedded TinyML|ML concepts are difficult to master. Challenging to code without prior knowledge or training|  
 
 The problem solution is elegant and compact. But, improments can be made to tackle the issues. \
-(Also, the project - *as per the website* - doesn't implement the locking mechanism yet. Its just a proof of concept.) \
-The  Arduino Nano 33 BLE Sense used is very powerful and versatile due to is many embedded sensors, which eleminated the need to separately attach required modules to the board externally. Also, it is capable of handle AI and ML codes with easy.
+The  Arduino Nano 33 BLE Sense used is very powerful and versatile due to is many embedded sensors, which eleminated the need to separately attach required modules to the board externally. Also, it is capable of handle AI and ML codes with easy.\
+*As per the project doc*, it doesn't implement the locking mechanism yet. It's just a proof of concept.\
 
+
+# Wireless Electronic Notice Board using GSM
+## Problem Statement: 
+Designing a Wireless Electronic Notice Board that displays the data sent from the mobile as SMS on the LCD using GSM technology. 
+## Ideation:
+Message sent (via SMS) --> Mobile Device --> GSM Module --> Microcontroller --> LCD Display
+### Project Pipeline Breakdown:
