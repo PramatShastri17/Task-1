@@ -1,6 +1,6 @@
 # TapLock - Smart Bicycle Lock
 ## Problem Statement: 
-Building a device that uses the power of machine learning to read tapping pattern (gestures) to lock/unlock a bicycle.\
+Building a device that uses the power of machine learning to read tapping pattern (gestures) to lock/unlock a bicycle.
 ## Ideation and Planning:
 ### Main Path:
 Tap Pattern detection --> Accelerometer Output -->  Microcontroller --> Edge Impulse --> Tap Recognision -->
