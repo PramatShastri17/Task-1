@@ -26,3 +26,11 @@ Designing a Wireless Electronic Notice Board that displays the data sent from th
 ## Ideation:
 Message sent (via SMS) --> Mobile Device --> GSM Module --> Microcontroller --> LCD Display
 ### Project Pipeline Breakdown:
+|Part of the Pipeline | Feasibility | Advantages | Disadvantages |
+| --- | --- | --- | --- |
+|Microcontroller|Slightly difficult to handle. Prior knowledge is a must.|Very Cheap. Compact and power efficient. Makes project portable|Have to learn C and assembly languages.  3rd Part IDE and programmer need to compile and load the code. |
+|GSM Module|Not very easy to use. Must learn from the basics | Long range, reliable and secure communication| Need to have prior knowledge of AT commands which are specific to RF communication.|
+|LCD Display|Difficult for a beginner to code|It is energy efficient. In the long-term, cost effective.|Requires frequent adjustments throughout usage. Limited viewing angles.|
+|Mobile Device|Easy to obtain and use|Nowadays, everybody has one, so no need to buy special hardware.|Limited usability. Highly dependent on the schemes of a service provider|
+### Choosing a Pipeline:
+> GSM Module - 
