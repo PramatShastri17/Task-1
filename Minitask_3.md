@@ -10,7 +10,7 @@ First, we begin by check if the *Power LED* of the arduino board lights up when 
 > If **No**, this means that the board is faulty and is not able to power up. In this case, the board may need to be replaced.
 
 Next, we make sure that the IC or any specific sensors doesn't heat up during operations.
-> If it does, then this is *not good news*. The IC/sensors might have burnt out. \
+> If it does, then this is *not good news*. The IC/sensors might have burnt out. But, *shorting an Arduino isn't easy*, they have *inbuilt mechanism* to prevent this. So, this can be tested at the end after all other tests.\
 > Even if only one of the sensors is overheating the *entire* board needs to be replaced.
 
 #### 2. Testing Individual sensors
@@ -24,3 +24,7 @@ Now, we test if thses individual sensors are working properly.
 >> If the outputs change seamlessly with change in orientation of the board, this mean that the IMU sensor is working without a fault. 
 
 #### 3. Testing the software
+* **Machine Learning Model** 
+>> If we are unable to get our desired results, i.e., the locking/unlocking is not happening when we perform the correct Tapping pattern, then the ML model may have an issue like overfitting or underfitting.\
+>> This can be easily resolved looking at plots of the accuracy and loss of the model on Edge and appropriately tweak the model or applying optimisations or just training the model with more diverse data.
+>> 
