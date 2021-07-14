@@ -1,1 +1,3 @@
-This file is for mini task 3
+# TapLock - Smart Bicycle Lock
+## Debugging
+Yes
