@@ -29,8 +29,14 @@ Message sent (via SMS) --> Mobile Device --> GSM Module --> Microcontroller --> 
 |Part of the Pipeline | Feasibility | Advantages | Disadvantages |
 | --- | --- | --- | --- |
 |Microcontroller|Slightly difficult to handle. Prior knowledge is a must.|Very Cheap. Compact and power efficient. Makes project portable|Have to learn C and assembly languages.  3rd Part IDE and programmer need to compile and load the code. |
-|GSM Module|Not very easy to use. Must learn from the basics | Long range, reliable and secure communication| Need to have prior knowledge of AT commands which are specific to RF communication.|
+|GSM Module|Not very easy to use. Must learn from the basics | Long range, reliable and secure communication| Need to have prior knowledge of AT commands. Needs a  SIM card|
 |LCD Display|Difficult for a beginner to code|It is energy efficient. In the long-term, cost effective.|Requires frequent adjustments throughout usage. Limited viewing angles.|
 |Mobile Device|Easy to obtain and use|Nowadays, everybody has one, so no need to buy special hardware.|Limited usability. Highly dependent on the schemes of a service provider|
+
 ### Choosing a Pipeline:
-> GSM Module - 
+> **GSM Module**: From the above table it is clear that this module has it short comings. So, we can instead convert this into an IoT project by interfacing the 8051 microcontroller with a NodeMCU ESP8266 Module. This will make it more dynamic and flexible stil maintaining the long range communication advantage of a GSM Module.\
+> Even thought we find that GSM communication can be secure, anyone who get access to the SIM number in the module can take control. If implemented on a large scale this can be an issue. So, by making it IoT-based, it can also help address the security issues with GSM communication.\
+> Also, implementing as IoT can enable us to modify the messages by adding elements like emojis or displaying tabulated data, etc.
+
+### Prototyping:
+In this phase, the project is implemented on a larger scale with a large LCD notice board panel. Some of our initial assumptions can breakdown here. So, to fix such problems we may need to go back to the ideation phase and workout a better implementation.
