@@ -17,7 +17,23 @@ Tap Pattern detection --> Accelerometer Output -->  Microcontroller --> Edge Imp
 
 The problem solution is elegant and compact. But, improments can be made to tackle the issues. \
 The  Arduino Nano 33 BLE Sense used is very powerful and versatile due to is many embedded sensors, which eleminated the need to separately attach required modules to the board externally. Also, it is capable of handle AI and ML codes with easy.\
-*As per the project doc*, it doesn't implement the locking mechanism yet. It's just a proof of concept.\
+*As per the project doc*, it doesn't implement the locking mechanism yet. It's just a proof of concept.
+
+### Choosing a Pipeline:
+#### Bluetooth:
+I felt that having a bluetooth only device will limit the functionality of the project. Bluetooth has a low ranges and is usually used for PANs. 
+This means that if we park our cycle, say at a metro station, and travel out of range of the bluetooth, we will not be able to track the cycle's status.
+
+**Solution:**
+We can use a **Nb-IoT** (Narrowband IoT) module with an embedded SIM for *real-time tracking*. 
+* It is more secure and reliable.
+* It has longer range than BLE and has more penetration.
+* It is power efficient.
+* It enables more accurate mobility tracking (GPS features).
+
+### Prototyping:
+A holder for the board along with a attachment bracket including a custom locking mechanism must we fabricated to properly deploy the project. 
+Also, providing the casing/holder with water resistance will be great to ensure that we can use this lock even in the rains.
 
 
 # Wireless Electronic Notice Board using GSM
