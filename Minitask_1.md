@@ -8,7 +8,7 @@ When the orientation of the wave is parallel to the pull of gravity, portions of
 When a small object is carefully positioned inbetween the transducers, it appears to float free of any support.\
 This machine is very sensitive as variation is subtle parameters (like positioning of or distance between the sensors) can tamper with the results. Also, it is limited to levitating only small (lighter) objects. 
 Designing the transducer with a concave geometry to fit more pairs of ultrasonic sensors (suitably positioning them on the surface) may allow it to lift heavier objects.\
-Project [Link](https://www.hackster.io/e_s_c/ultrasonic-levitation-machine-using-arduino-9e3989)\
+[Link to the Project] (https://www.hackster.io/e_s_c/ultrasonic-levitation-machine-using-arduino-9e3989)\
 ![Acoustic_Levitation](https://user-images.githubusercontent.com/85291394/121806316-f4c4bb00-cc6c-11eb-9ba8-d15a6be44972.gif)
 
 
